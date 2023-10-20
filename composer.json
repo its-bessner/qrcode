@@ -1,0 +1,19 @@
+{
+    "name": "its-bessner/qrcode",
+    "type": "contao-bundle",
+    "require": {
+        "endroid/qr-code": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ItsBessner\\Qrcode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "harrie",
+            "email": "info@bessner-it.de"
+        }
+    ],
+    "minimum-stability": "stable"
+}
