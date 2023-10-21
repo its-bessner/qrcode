@@ -4,7 +4,6 @@
     "require": {
         "endroid/qr-code": "*"
     },
-    "version": "1.0.2",
     "autoload": {
         "psr-4": {
             "ItsBessner\\Qrcode\\": "src/"
