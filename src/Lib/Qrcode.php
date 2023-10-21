@@ -13,7 +13,7 @@ use Endroid\QrCode\Writer\PngWriter;
 
 class Qrcode
 {
-    const NAME = "Harrie 100";
+    const NAME = "Harrie 200";
 
     public static function getConfig()
     {
