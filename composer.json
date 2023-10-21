@@ -2,7 +2,8 @@
     "name": "its-bessner/qrcode",
     "type": "contao-bundle",
     "require": {
-        "endroid/qr-code": "*"
+        "endroid/qr-code": "*",
+        "contao/core-bundle": "^5.2"
     },
     "autoload": {
         "psr-4": {
@@ -15,5 +16,14 @@
             "email": "info@bessner-it.de"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "contao-components/installer": true,
+            "php-http/discovery": true
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "ItsBessner\\Qrcode\\ContaoManager\\Plugin"
+    }
 }

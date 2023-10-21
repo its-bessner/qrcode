@@ -6,4 +6,9 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'SimplePie' => array($vendorDir . '/simplepie/simplepie/library'),
+    'Less' => array($vendorDir . '/wikimedia/less.php/lib'),
+    'Highlight\\' => array($vendorDir . '/scrivo/highlight.php'),
+    'HighlightUtilities\\' => array($vendorDir . '/scrivo/highlight.php'),
+    'Diff' => array($vendorDir . '/phpspec/php-diff/lib'),
 );
