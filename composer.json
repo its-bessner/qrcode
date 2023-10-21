@@ -3,7 +3,7 @@
     "type": "contao-bundle",
     "require": {
         "endroid/qr-code": "*",
-        "contao/core-bundle": "^5.2"
+        "contao/core-bundle": "*"
     },
     "autoload": {
         "psr-4": {
