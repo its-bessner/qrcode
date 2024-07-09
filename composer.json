@@ -1,6 +1,7 @@
 {
     "name": "its-bessner/qrcode",
     "type": "contao-bundle",
+    "license": "MIT",
     "require": {
         "endroid/qr-code": "*"
     },
