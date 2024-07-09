@@ -5,10 +5,10 @@
     "require": {
         "endroid/qr-code": "*"
     },
-    "version": "1.2.0",
+    "version": "1.2.1",
     "autoload": {
         "psr-4": {
-            "ItsBessner\\Qrcode\\": "src/"
+            "Itsbessner\\Qrcode\\": "src/"
         }
     },
     "authors": [
